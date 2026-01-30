@@ -1,6 +1,6 @@
 def main():
     print("Hello from rag-in-action!")
-from datetime import datetime
+from date
 
 if __name__ == "__main__":
     main()

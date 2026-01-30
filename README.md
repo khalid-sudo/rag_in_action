@@ -3,7 +3,7 @@
 Welcome to our second lesson in the “Introduction to RAG” course! In the previous lesson, you learned how RAG evolved from traditional Information Retrieval (IR). Today, we'll connect those ideas to concrete code and illustrate a simple end-to-end RAG workflow. By the end of this lesson, you'll see how indexing, retrieval, prompt augmentation, and final text generation fit together to produce a targeted answer.
 
 In this lesson, we showcase a scenario involving “Project Chimera.” Think of this as an internal project of a company — here, it's just an example to demonstrate how a naive, context-free system can invent inaccurate details, whereas a RAG-based system will provide reliable answers using information from an authoritative knowledge base. Please note that we are deliberately using extremely simplified methods (like simple keyword matching) to illustrate how each part of a RAG pipeline can work. Later in this course, we will explore more realistic and robust approaches—such as using embeddings and vector databases—for each component of our RAG pipeline.
-The RAG Workflow: Four Key Steps
+## The RAG Workflow: Four Key Steps
 
 > Before diving into the code, let's take a quick look at the four primary steps of our simple RAG workflow:
 
